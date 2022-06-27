@@ -1,0 +1,484 @@
+    <!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="utf-8" />
+        <title>demo</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1"/>
+        <!-- Link Swiper's CSS -->
+        <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css"/>
+        <link rel="stylesheet" href="index.css">
+
+        <!-- Demo styles -->
+        <style>
+        html,
+        body {
+            position: relative;
+            height: 100%;
+        }
+
+        body {
+            margin: 0;
+            padding: 0;
+        }
+
+        .swiper-wapper{
+            width: 100%;
+            overflow: hidden;
+        }
+
+        .swiper {
+            width: 100%;
+            overflow: hidden;
+        }
+
+        .swiper-slide {
+            background: #fff;
+            height: 400px;
+
+            /* Center slide text vertically */
+            display: -webkit-box;
+            display: -ms-flexbox;
+            display: -webkit-flex;
+            display: flex;
+            -webkit-box-pack: center;
+            -ms-flex-pack: center;
+            -webkit-justify-content: center;
+            justify-content: center;
+            -webkit-box-align: center;
+            -ms-flex-align: center;
+            -webkit-align-items: center;
+            align-items: center;
+        }
+
+        .swiper-slide img {
+            display: block;
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+        }
+
+        .swiper-slide {
+            width: 80%;
+            height: 100%;
+        }
+
+        .swiper-slide:nth-child(2n) {
+            width: 80%;
+        }
+
+        .swiper-slide:nth-child(3n) {
+            width: 80%;
+        }
+
+        .swiper-pagination{
+            position:unset;
+        }
+        .swiper-horizontal>.swiper-pagination-bullets, .swiper-pagination-bullets.swiper-pagination-horizontal, .swiper-pagination-custom, .swiper-pagination-fraction{
+            bottom:0;
+            padding-bottom: 20px;
+        }
+        </style>
+    </head>
+
+    <body>
+        <header>
+        <img class="icon1" src="./image/icon_prev.png">
+        <P class="title">공기청정팬 알아보기</P>
+    </header>
+
+    <section>
+
+        <!--배너-->
+        <div id="banner">
+            <p class="p1">공기청정팬과<br/>
+            함께 하는<br/>
+            다채로운 라이프
+            <p>미리 살펴볼까요?</p>  
+        </div>
+        <!--//배너-->
+
+        <!--고객 제품 사용기-->
+
+        <div id="card">
+            <div class="tip-title">
+                <img class="icon1" src="./image/logo_naverblog.png">
+                <p class="title1">꼼꼼 리뷰</p>
+                <img class="all-img" src="./image/icon_next.png">
+            </div>
+    <!-- Swiper -->
+    <div class="swiper mySwiper">
+        <div class="swiper-wrapper">
+        <div class="swiper-slide">
+            <div id="use">
+            <div class="use-box">
+                <a href="https://blog.naver.com/dngusghk/222644239629">
+                    <img src="./image/img_thum_blog1.png">
+                </a>
+                <a href="https://blog.naver.com/dngusghk/222644239629">
+                    <div class="use-txt">
+                        <h2>인테리어 가전 LG퓨리케어 <br/>에어로타워 오브제컬렉션 청정한 공간으로 만들어주는 공기청정팬</h2>
+                        <p>똑소리나는우새댁</p>
+                    </div>
+                </a>
+            </div>
+    
+            <div class="use-box">
+                <a href="https://blog.naver.com/wyh5757/222648106790">
+                <img src="./image/img_thum_blog2.png">
+                </a>
+                <a href="https://blog.naver.com/wyh5757/222648106790">
+                    <div class="use-txt">
+                        <h2>공기청정팬 LG 퓨리케어 <br/>에어로타워로 실내 인테리어는 물론 깨끗한 공기까지 관리해요</h2>
+                        <p>핑크비쥬</p>
+                    </div>
+                </a>
+
+            </div>
+    
+            <div class="use-box">
+                <a href="https://blog.naver.com/king0655/222641966899">
+                    <img src="./image/img_thum_blog3.png">
+                </a>
+    
+                <a href="https://blog.naver.com/king0655/222641966899">
+                    <div class="use-txt">
+                        <h2>LG 퓨리케어 에어로타워<br/> 오브제컬렉션 사계절 청정라이프의 시작</h2>
+                        <p>하율</p>
+                    </div>
+                </a>
+            </div>
+        </div>
+        </div>
+        <div class="swiper-slide">
+            <div id="use">
+            <div class="use-box">
+                <a href="https://blog.naver.com/marianne40/222642280548">
+                    <img src="./image/img_thum_blog4.png">
+                </a>
+                <a href="https://blog.naver.com/marianne40/222642280548">
+                    <div class="use-txt">
+                        <h2>공기청정/온풍/선풍 기능이 <br/>합쳐진 LG 퓨리케어 에어로타워 오브제컬렉션 공기청정팬!</h2>
+                        <p>마리안느</p>
+                    </div>
+                </a>
+            </div>
+    
+            <div class="use-box">
+                <a href="https://blog.naver.com/yellowin23/222648146074">
+                <img src="./image/img_thum_blog5.png">
+                </a>
+                <a href="https://blog.naver.com/yellowin23/222648146074">
+                    <div class="use-txt">
+                        <h2>공간 인테리어가전<br/> LG 퓨리케어 에어로타워 오브제컬렉션으로 홈스타일링 완성</h2>
+                        <p>꼬꼬마</p>
+                    </div>
+                </a>
+            
+                </div>
+    
+            <div class="use-box">
+                <a href="https://blog.naver.com/wyh5757/222641992786">
+                    <img src="./image/img_thum_blog6.png">
+                </a>
+    
+                <a href="https://blog.naver.com/wyh5757/222641992786">
+                    <div class="use-txt">
+                        <h2>공기청정팬, LG 퓨리케어 <br/>에어로타워 오브제컬렉션 공간 인테리어가전 첫 만남</h2>
+                        <p>핑크비쥬</p>
+                    </div>
+                </a>
+
+            </div>
+        </div>
+        </div>
+        <div class="swiper-slide">  
+            <div id="use">
+            <div class="use-box">
+                <a href="https://blog.naver.com/miffy2659/222648086376">
+                    <img src="./image/img_thum_blog7.png">
+                </a>
+                <a href="https://blog.naver.com/miffy2659/222648086376">
+                    <div class="use-txt">
+                        <h2>공간 인테리어 가전 <br/>LG 퓨리케어 에어로타워 오브제 컬렉션</h2>
+                        <p>블러썸</p>
+                    </div>
+                </a>
+            </div>
+    
+            <div class="use-box">
+            <a href="https://blog.naver.com/jayonce1004/222655712618">
+                <img src="./image/img_thum_blog8.png">
+            </a>
+                <a href="https://blog.naver.com/jayonce1004/222655712618">
+                    <div class="use-txt">
+                        <h2>원하는 온도와 부드러운 바람이<br/> 좋은 에어로타워 공기청정팬 :) </h2>
+                        <p>소루앤제이</p>
+                    </div>
+                </a>
+
+            </div>
+    
+            <div class="use-box">
+                <a href="https://blog.naver.com/babysonn1/222644730291">
+                <img src="./image/img_thum_blog9.png">
+                </a>
+    
+                <a href="https://blog.naver.com/babysonn1/222644730291">
+                    <div class="use-txt">
+                        <h2>LG 퓨리케어 에어로타워 <br/>오브제컬렉션 공기청정팬으로 홈인테리어를 살리다</h2>
+                        <p>그레이</p>
+                    </div>
+                </a>
+                
+            </div>
+        </div>
+    </div>
+        </div>
+        <div class="swiper-pagination"></div>
+    </div>
+        </div>
+        <!--//고객 제품 사용기-->
+
+        <!--에어로타워 라이프 스타일-->
+        <div id="card">
+            <div class="tip-title">
+                <img class="icon1" src="./image/logo_lg.png">
+                <p class="title1">공기청정팬 스토리</p>
+                <img class="all-img" src="./image/icon_next.png">
+
+            </div>
+    
+            <div id="tip"> 
+                <a href="https://www.lge.co.kr/story/lifestyle/aerotower-lifestyle">
+                    <img src="./image/img_thum_lg1.png">
+                <h1>공기 질이 곧 삶의 질 없으면 후회하는 삶의 질 상승템
+                </h1>
+    
+                <p> 겨울엔 추워서 여름엔 더워서 봄 가을엔 미세먼지가 기승을 부려 창을 열지 못하니 탁해지는 집 안 공기
+                </p>
+            </a>
+            </div>
+        </div>
+        <!--//에어로타워 라이프 스타일-->
+        
+        <!--가전테리어 팁-->
+        <div id="card">
+            <div class="tip-title">
+                <img class="icon1" src="./image/logo_instagram.png">
+                <p class="title1">가전테리어 팁</p>
+                <img class="all-img" src="./image/icon_next.png">
+            </div>
+            <div class="slide">
+                <input type="radio" name="pos" id="pos1" checked>
+                <input type="radio" name="pos" id="pos2">
+                <input type="radio" name="pos" id="pos3">
+            
+                <ul>
+                <li>
+                    <div id="instar">
+                        <a href="https://www.instagram.com/p/CXk_DL3l9LN/ ">
+                            <img src="./image/img_thum_instar1.png">
+                        </a>
+                        <a href="https://www.instagram.com/p/CX0OEavlMTw/ ">
+                            <img src="./image/img_thum_instar2.png">
+                        </a>
+                        <a href="https://www.instagram.com/p/CXkIM7mv6B4/  ">
+                            <img src="./image/img_thum_instar3.png">
+                        </a>
+                        <a href="https://www.instagram.com/p/CXkX_FPJI5t/ ">
+                            <img src="./image/img_thum_instar4.png">
+                        </a>
+                        <a href="https://www.instagram.com/p/CXkpbTHv4uK/ ">
+                            <img src="./image/img_thum_instar5.png">
+                        </a>
+                        <a href=" https://www.instagram.com/p/CXkdqDVpvgF/">
+                            <img src="./image/img_thum_instar6.png">
+                        </a>
+                        <a href="https://www.instagram.com/p/CYiYfmGPJzK/ ">
+                            <img src="./image/img_thum_instar7.png">
+                        </a>
+                        <a href="https://www.instagram.com/p/CYafrlMJLIj/">
+                            <img src="./image/img_thum_instar8.png">
+                        </a>
+                        <a href="https://www.instagram.com/p/CXkelxSJ_JN ">
+                            <img src="./image/img_thum_instar9.png">
+                        </a>
+                    </div>
+                </li>
+                <li>
+                    <div id="instar">
+                        <a href="https://www.instagram.com/p/CXk_DL3l9LN/ ">
+                            <img src="./image/img_thum_instar1.png">
+                        </a>
+                        <a href="https://www.instagram.com/p/CX0OEavlMTw/ ">
+                            <img src="./image/img_thum_instar2.png">
+                        </a>
+                        <a href="https://www.instagram.com/p/CXkIM7mv6B4/  ">
+                            <img src="./image/img_thum_instar3.png">
+                        </a>
+                        <a href="https://www.instagram.com/p/CXkX_FPJI5t/ ">
+                            <img src="./image/img_thum_instar4.png">
+                        </a>
+                        <a href="https://www.instagram.com/p/CXkpbTHv4uK/ ">
+                            <img src="./image/img_thum_instar5.png">
+                        </a>
+                        <a href=" https://www.instagram.com/p/CXkdqDVpvgF/">
+                            <img src="./image/img_thum_instar6.png">
+                        </a>
+                        <a href="https://www.instagram.com/p/CYiYfmGPJzK/ ">
+                            <img src="./image/img_thum_instar7.png">
+                        </a>
+                        <a href="https://www.instagram.com/p/CYafrlMJLIj/">
+                            <img src="./image/img_thum_instar8.png">
+                        </a>
+                        <a href="https://www.instagram.com/p/CXkelxSJ_JN ">
+                            <img src="./image/img_thum_instar9.png">
+                        </a>
+                    </div>
+                </li>
+                <li>
+                    <div id="instar">
+                        <a href="https://www.instagram.com/p/CXk_DL3l9LN/ ">
+                            <img src="./image/img_thum_instar1.png">
+                        </a>
+                        <a href="https://www.instagram.com/p/CX0OEavlMTw/ ">
+                            <img src="./image/img_thum_instar2.png">
+                        </a>
+                        <a href="https://www.instagram.com/p/CXkIM7mv6B4/  ">
+                            <img src="./image/img_thum_instar3.png">
+                        </a>
+                        <a href="https://www.instagram.com/p/CXkX_FPJI5t/ ">
+                            <img src="./image/img_thum_instar4.png">
+                        </a>
+                        <a href="https://www.instagram.com/p/CXkpbTHv4uK/ ">
+                            <img src="./image/img_thum_instar5.png">
+                        </a>
+                        <a href=" https://www.instagram.com/p/CXkdqDVpvgF/">
+                            <img src="./image/img_thum_instar6.png">
+                        </a>
+                        <a href="https://www.instagram.com/p/CYiYfmGPJzK/ ">
+                            <img src="./image/img_thum_instar7.png">
+                        </a>
+                        <a href="https://www.instagram.com/p/CYafrlMJLIj/">
+                            <img src="./image/img_thum_instar8.png">
+                        </a>
+                        <a href="https://www.instagram.com/p/CXkelxSJ_JN ">
+                            <img src="./image/img_thum_instar9.png">
+                        </a>
+                    </div>
+                </li>
+                <li></li>
+                </ul>
+                <p class="bullet">
+                <label for="pos1">1</label>
+                <label for="pos2">2</label>
+                <label for="pos3">3</label>
+            
+                </p>
+            </div>
+        </div>
+        <!--//가전테리어 팁-->
+
+        <!--유튜버 제품 사용법-->
+        <div id="card">
+            <div class="tip-title">
+                <img class="icon1" src="./image/logo_youtube.png">
+                <p class="title1">생생 체험기</p>
+                <img class="all-img" src="./image/icon_next.png">
+            </div>
+            <div id="youtube">
+                <div class="swiper youtubeSwiper">
+                    <div class="swiper-wrapper height">
+                    <div class="swiper-slide ">
+                        <div class="youtube-box">
+                            <a href="https://youtu.be/zc3TObc_YKc">
+                                <img src="./image/youtube01.jpg">
+                            </a>
+                            
+                            <a href="https://youtu.be/zc3TObc_YKc">
+                                <div class="youtube-txt">
+                                    <h3>[온새미로]퇴사후 여유로운 일상브이로그 | 본집 | 십자수 | 책 | 청소 | 기타 | 샐러드 | 잠 |
+                                    </h3>
+                                    <p>김해준</p>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="youtube-box">
+                            <a href="https://youtu.be/wZjzbV08Od0">
+                                <img src="./image/youtube02.jpg">
+                            </a>
+                            
+                            <a href="https://youtu.be/wZjzbV08Od0">
+                                <div class="youtube-txt">
+                                    <h3>[DARALOG] Welcome 다라 하우스! | 랜선 집들이 Part. 1
+                                    </h3>
+                                    <p>DARA TV</p>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="youtube-box">
+                            <a href="https://www.youtube.com/watch?v=XsbgdNLoFQk&t=242s">
+                                <img src="./image/youtube3.jpg">
+                            </a>
+                            <a href="https://www.youtube.com/watch?v=XsbgdNLoFQk&t=242s">
+                                <div class="youtube-txt">
+                                    <h3>디자인만큼 사용성은? 새롭게 등장한 공기청정팬, LG 퓨리케어 에어로타워 오브제컬렉션 I LG Puricare Aerotower Objet Collection</h3>
+                                    <p>톡써니</p>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="youtube-box">
+                            <a href="https://www.youtube.com/watch?v=skiZYkp3Khg">
+                                <img src="./image/youtube4.jpg">
+                            </a>
+                            
+                            <a href="https://www.youtube.com/watch?v=skiZYkp3Khg">
+                                <div class="youtube-txt">
+                                    <h3>[[가정방문] 패션 컴퍼니 더캐리의 신사옥, 이은정 대표의 개성 있는 오피스
+                                    </h3>
+                                    <p>노블레스TV</p>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                    </div>
+                    <div class="swiper-pagination display"></div>
+
+                </div>
+            </div>
+        </div>
+        <!--//유튜버 제품 사용법-->
+
+        <!-- Swiper JS -->
+        <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+
+        <!-- Initialize Swiper -->
+        <script>
+    var swiper = new Swiper(".mySwiper", {
+        spaceBetween: 15,
+        centeredSlides: true,
+
+        pagination: {
+            el: ".swiper-pagination",
+            clickable: true,
+        },
+        
+    });
+        
+        var swiper = new Swiper(".youtubeSwiper", {
+            slidesPerView: "auto",
+            spaceBetween: 15,
+            pagination: {
+            el: ".swiper-pagination",
+            clickable: true,
+            },
+        });
+        </script>
+    </body>
+    </html>
